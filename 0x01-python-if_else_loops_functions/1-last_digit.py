@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 import random
 number = random.randint(-10000, 10000)
-print(number)
 last_num = abs(number) % 10
 if number < 1:
     last_num = last_num * -1

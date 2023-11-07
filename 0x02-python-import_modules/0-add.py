@@ -5,5 +5,5 @@ b = 2
 
 sum = add(a, b)
 
-print(f"{a} + {b} = {sum}")
+print("{:d} + {:d} = {:d}".format(a, b, sum))
 

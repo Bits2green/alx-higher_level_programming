@@ -1,8 +1,9 @@
 #!/usr/bin/python3
+"""Represents a square."""
 
 class Square:
     """
-    Represents a square.
+    
 
     Attributes:
         __size (int): Size of a side of the square.

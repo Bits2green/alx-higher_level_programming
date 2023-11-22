@@ -1,10 +1,11 @@
 #!/usr/bin/python3
 
 import math
+"""Represents a circle."""
 
 class MagicClass:
     """
-    Represents a circle.
+    
 
     Attributes:
         __radius (float): Radius of the circle.

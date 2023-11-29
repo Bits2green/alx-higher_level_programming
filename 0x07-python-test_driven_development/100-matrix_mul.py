@@ -30,7 +30,8 @@ def matrix_mul(m_a, m_b):
             raise TypeError("each row of m_a must be of the same size")
         nc1 = len(row1)
         for column1 in row1:
-            if type(column1) != int and type(column1) != float:              raise TypeError("m_a should contain only integers or floats")
+            if type(column1) != int and type(column1) != float:
+                raise TypeError("m_a should contain only integers or floats")
 
     # Check requirements for matrix m_b
     if m_b == []:

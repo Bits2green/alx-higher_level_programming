@@ -17,4 +17,4 @@ def append_after(filename="", search_string="", new_string=""):
             if search_string in lines_print:
                 lines_l.append(new_string)
     with open(filename, 'w', encoding='utf-8') as f:
-        f.writeline(lines_l)
+        f.writelines(lines_l)

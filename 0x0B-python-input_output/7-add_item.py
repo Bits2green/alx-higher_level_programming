@@ -7,14 +7,14 @@ from sys import argv
 save_to_json_file = __import__("5-save_to_json_file").save_to_json_file
 load_from_json_file = __import__("6-load_from_json_file").load_from_json_file
 
-f_name = "add_item.json"
+filename = "add_item.json"
 
 try:
-    j_list = load_from_json_file(f_name)
+    json_list = load_from_json_file(f_name)
 except FileNotFoundError:
-    j_list = []
+    json_list = []
 
 for arg in argv[1:]:
-    j_list.append(arg)
+    json_list.append(arg)
 
-save_to_json_file(j_list, f_name)
+save_to_json_file(json_list, filename)
